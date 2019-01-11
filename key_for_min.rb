@@ -9,3 +9,7 @@ def key_for_min_value(name_hash)
             puts lowest
         end
 end
+
+name_hash = {apple: 6, pear: 9, banana: 16}
+
+key_for_min_value(name_hash)
