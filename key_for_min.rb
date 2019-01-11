@@ -8,6 +8,7 @@ def key_for_min_value(name_hash)
             lowest = value
             puts lowest
         end
+    end
 end
 
 name_hash = {apple: 6, pear: 9, banana: 16}
