@@ -6,9 +6,10 @@ def key_for_min_value(name_hash)
     name_hash.collect do |key, value|
         if lowest > value
             lowest = value
-            key
+            lowest_key = key
         end
     end
+    lowest_key
 end
 
 name_hash = {apple: 6, pear: 9, banana: 16}
